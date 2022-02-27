@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+AppRunner.AspNetCore6.HelloWorld.Deployment
+aws-deployments.json

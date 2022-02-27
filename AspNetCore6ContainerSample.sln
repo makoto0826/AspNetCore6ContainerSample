@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRun.AspNetCore6.GrpcCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRun.AspNetCore6.HelloWorld", "CloudRun.AspNetCore6.HelloWorld\CloudRun.AspNetCore6.HelloWorld.csproj", "{8BFE7855-1036-41ED-AB95-9980D47BA75B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRunner.AspNetCore6.HelloWorld", "AppRunner.AspNetCore6.HelloWorld\AppRunner.AspNetCore6.HelloWorld.csproj", "{33B0F8DF-B97F-4D37-8443-8693CFFB5D0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{8BFE7855-1036-41ED-AB95-9980D47BA75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BFE7855-1036-41ED-AB95-9980D47BA75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BFE7855-1036-41ED-AB95-9980D47BA75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B0F8DF-B97F-4D37-8443-8693CFFB5D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B0F8DF-B97F-4D37-8443-8693CFFB5D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B0F8DF-B97F-4D37-8443-8693CFFB5D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B0F8DF-B97F-4D37-8443-8693CFFB5D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
