@@ -330,4 +330,5 @@ ASALocalRun/
 .mfractor/
 
 AppRunner.AspNetCore6.HelloWorld.Deployment
+AppRunner.AspNetCore6.HelloWorldWithOpenTelemetry.Deployment
 aws-deployments.json
