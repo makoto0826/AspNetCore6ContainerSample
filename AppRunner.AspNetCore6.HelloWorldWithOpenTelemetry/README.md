@@ -28,3 +28,5 @@
 ```
 dotnet aws delete-deployment AppRunner.AspNetCore6.HelloWorldWithOpenTelemetry
 ```
+
+## VPCエンドポイントを使用する場合

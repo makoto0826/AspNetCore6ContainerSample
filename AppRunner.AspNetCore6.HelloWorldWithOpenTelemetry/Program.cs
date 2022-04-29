@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using OpenTelemetry;
 using OpenTelemetry.Contrib.Extensions.AWSXRay.Trace;
 using OpenTelemetry.Logs;
@@ -32,6 +33,16 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
+    var source = new ActivitySource("HelloWorld");
+
+    using (var activity = source.StartActivity("Hello"))
+    {
+        activity?.SetTag("foo", 1);
+        activity?.SetTag("bar", "Hello, World!");
+        activity?.SetTag("baz", new int[] { 1, 2, 3 });
+        activity?.SetStatus(ActivityStatusCode.Ok);
+    }
+
     var logger = app.Services.GetRequiredService<ILogger<Program>>();
     logger.LogInformation("Hello World");
     return "Hello World";
